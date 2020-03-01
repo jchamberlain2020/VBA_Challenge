@@ -1,12 +1,11 @@
+sub vbastock():
+
 Dim i As Long
 Dim change As Double
 Dim j As Integer
 Dim start As Long
 Dim rowCount As Long
 Dim percentChange As Double
-Dim days As Integer
-Dim dailyChange As Double
-Dim averageChange As Double
 
 'Run macro in each sheet
 For Each ws In Worksheets
